@@ -50,7 +50,7 @@ inquirer
 ${data.description}
 
 ## License
-${data.license}
+![license](https://img.shields.io/static/v1?label=license&message=${data.license}&color=success)
 
 ## Installation
 ${data.installation}
