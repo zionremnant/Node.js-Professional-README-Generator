@@ -32,6 +32,11 @@ inquirer
       name: "contact",
       message: "What is your GitHub username?",
     },
+    {
+      type: "input",
+      name: "email",
+      message: "What is your email address?",
+    },
   ])
   .then((data) => {
     // create readme
@@ -44,13 +49,15 @@ inquirer
 * [Contributing](#contributing)
 * [Usage](#usage)
 * [Test](#test)
+* [Email](#email)
 * [Contact](#contact)
+)
 
 ## Description
 ${data.description}
 
 ## License
-![license](https://img.shields.io/static/v1?label=license&message=${data.license}&color=success)
+![license](https://img.shields.io/static/v1?label=license&message=${data.license}&color=blueviolet)
 
 ## Installation
 ${data.installation}
@@ -63,6 +70,9 @@ ${data.usage}
 
 ## Test
 ${data.test}
+
+## Email
+${data.email}
 
 ## Contact
 ${data.contact}
