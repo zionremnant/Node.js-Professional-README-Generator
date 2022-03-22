@@ -55,7 +55,7 @@ inquirer
 * [Test](#test)
 * [Email](#email)
 * [Contact](#contact)
-)
+
 
 ## Description
 ${data.description}
