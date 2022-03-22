@@ -1,31 +1,45 @@
-# y
+# README.md Generator Using Node.js
 
 ## Table of Contents
-* [Description](#description)
-* [License](#license)
-* [Installation](#installation)
-* [Contributing](#contributing)
-* [Usage](#usage)
-* [Test](#test)
-* [Contact](#contact)
+
+- [Description](#description)
+- [License](#license)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [Usage](#usage)
+- [Test](#test)
+- [Email](#email)
+- [Contact](#contact)
+  )
 
 ## Description
-t
+
+A node.js application that uses user input from inquirer to populate a README.md file for user repository.
 
 ## License
-![license](https://img.shields.io/static/v1?label=license&message=MIT&color=blueviolet)
+
+![license](https://img.shields.io/static/v1?label=license&message=Hippocratice&color=blueviolet)
 
 ## Installation
-r
+
+npm init & npm install inquirer
 
 ## Contributing
-e
+
+Zion Yang
 
 ## Usage
-w
+
+Run node index.js
 
 ## Test
-q
+
+Make sure to update tests as appropriate.
+
+## Email
+
+zionremnant@gmail.com
 
 ## Contact
-a
+
+https://github.com/zionremnant
