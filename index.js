@@ -6,36 +6,40 @@ inquirer
     {
       type: "input",
       name: "title",
-      message: "What is your project title?",
+      message: "What is the project title?",
     },
-    { type: "input", name: "description", message: "What is the description?" },
+    {
+      type: "input",
+      name: "description",
+      message: "Write a brief description of your project.",
+    },
     {
       type: "list",
       name: "license",
-      message: "What license are you using?",
+      message: "Choose the appropriate license for this project.",
       choices: ["MIT", "Apache 2.0", "Hippocratice", "IBM"],
     },
     {
       type: "input",
       name: "installation",
-      message: "What is the installation?",
+      message: "Describe the installation process.",
     },
     {
       type: "input",
       name: "contributing",
-      message: "What is contributing?",
+      message: "Who is/are the contributor(s) of this project?",
     },
-    { type: "input", name: "usage", message: "What is the usage?" },
-    { type: "input", name: "test", message: "What are you testing?" },
+    { type: "input", name: "usage", message: "What is the project usage for?" },
+    { type: "input", name: "test", message: "Is there a test included?" },
     {
       type: "input",
       name: "contact",
-      message: "What is your GitHub username?",
+      message: "Please enter your GitHub username.",
     },
     {
       type: "input",
       name: "email",
-      message: "What is your email address?",
+      message: "Please enter your email address.",
     },
   ])
   .then((data) => {
